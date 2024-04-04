@@ -1,0 +1,145 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--section start here-->
+  <section class="w-full overflow-hidden">
+    <!--header start here -->
+       <header>
+        <!--nav start here -->
+          <nav class=" hidden pt-5 md:grid grid-cols-3 ">
+            <div class="pl-11 flex ">
+                <h1><a href="#" class=" pra  text-5xl text-amber-500 font-bold ">PraRoz</a></h1>
+                <img src="purepng.com-moonmoonskyrealisticnightblack-and-white-591521584248xjtz1.png" class="w-5 h-5 mt-5">
+            </div>
+
+            <!--nav list start here -->
+            <ul class="grid grid-cols-5 pl-0 gap-28 pt-2  pr-20 text-2xl text-white font-medium ">
+              <li><a href="#">Home </a></li>
+              <li><a href="#"> About</a></li>
+              <li><a href="#"> Service </a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#"> Contact </a></li>
+            </ul>
+            <!--nav list ends here -->
+            <!--the search input   start -->
+            <div class="pl-28 pt-1">
+              <form class="flex" >
+                <input type="search" placeholder="Hello guys " class="p-2 bg-transparent text-white border-solid border-2  placeholder-white border-y-amber-500 border-l-amber-500 border-r-0 rounded rounded-r-none ">
+                <input class="text-2xl text-white bg-amber-500 w-28 pl-4 rounded rounded-l-none placeholder-white " type="search" placeholder="search">
+              </form>
+            </div>
+            <!--the search input ends here  -->
+          </nav>   
+          <!--nav ends here -->
+
+            <!--responsive  nav start here-->
+          <nav class="  md:hidden  ">
+            <div class="flex justify-between">
+                 <div class="pl-11 flex ">
+                   <h1><a href="#" class="  text-5xl text-amber-500 font-bold ">PraRoz</a></h1>
+                <img src="purepng.com-moonmoonskyrealisticnightblack-and-white-591521584248xjtz1.png" class="w-5 h-5 mt-5">
+                 </div>
+     
+                 <div id="ham"><svg class="w-11 " data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                 </svg></div>
+            </div>
+            <br>
+            <!--nav list start here -->
+            <ul id="nav" class=" bg-black pb-7 hidden   pl-0  pt-2  mr-0 text-2xl text-white font-medium  ">
+              <div id="cancel" class="flex justify-end ">
+                <svg  class="w-20 " data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+                  </svg>
+            </div> 
+            <div class=" w-full pl-11  leading-10  text-4xl">
+              <li><a href="#">Home </a></li>
+              <li><a href="#"> About</a></li>
+              <li><a href="#"> Service </a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#"> Contact </a></li>
+             
+            </div>
+          </ul>
+            <!--nav list ends here -->
+     
+          </nav>   
+          <!--responsive nav ends here -->
+
+            <!--the reponsive search input   start -->
+            <div class="pl-5 pt-11 md:hidden">
+              <form class="flex" >
+                <input type="search" placeholder="Hello guys " class="p-2 bg-transparent text-white border-solid border-2  placeholder-white border-y-amber-500 border-l-amber-500 border-r-0 rounded rounded-r-none ">
+                <input class="text-2xl text-white bg-amber-500 w-28 pl-4 rounded rounded-l-none placeholder-white " type="search" placeholder="search">
+              </form>
+            </div>
+            <!--the responsive search input ends here  -->
+       </header>
+       <!--header ends here -->
+
+
+       <!--bodytext  start here-->
+       <div class="max-md:pl-5 md:pl-11 pt-32 grid max-sm:grid-cols-1 grid-cols-2 md:gap-32">
+         <!--first col ends here-->
+         <div class="">
+           <h1 class=" max-md:text-4xl  md:text-6xl text-white font-bold">Web Design & <br>
+          <span class="text-amber-500">Development</span> <br>
+        Course</h1>
+        
+        <div class="mb-11 text-white mt-5">Web Design is a specialisation of the design stream. They also use HTML, <br> CSS,WYSIWYG editing software, mark up validators etc .. <br>
+        to create design elements.</div>
+        <a href="#" class="p-1.5 pl-6 pr-11 text-2xl rounded  bg-amber-500"> Join Us</a>
+         </div>
+         <!--first col start here-->
+
+         <!--second col start here -->
+         <div class="pt-11 sm:pt-0">
+          <!--inneer start here -->
+          <div>
+            <form class="text-white w-96 bg-black bg-opacity-70 pt-7 pb-7 rounded-lg" >
+              <!--justify start here -->
+              <div class="w-full text-center">
+             
+                   <div class="bg-white ml-11 text-2xl pb-3 pt-1 mb-11 rounded-lg text-amber-500 w-9/12 text-center">Login Here</div> 
+
+                   <input type="email" class="border-2 active:outline-none placeholder-white text-white mb-5 w-72  bg-transparent border-x-0 border-t-0 border-b-amber-500" placeholder="Enter yr email"> <br>
+                   <input type="password" class=" mb-11 placeholder-white text-white border-2 w-72 bg-transparent border-x-0 border-t-0 border-b-amber-500" placeholder="Enter yr password"> <br>
+       
+             </div>
+             <!---justify ends here-->
+              <!--form text star here -->
+               <div class="text-center ">
+              
+                 <div class="bg-amber-500 pb-3 w-9/12 text-2xl pt-1 rounded-lg ml-11 text-center"><button ><a href="#">Login</a></button></div>
+                  <div>Don't Have an account ? <br>
+                  <a href="" class="text-amber-500">Sign up</a> here</div>
+                      <br> 
+                 <div> log in with</div>
+              
+            
+              </div>
+               <!--formtext ends herd-->
+              <div class="pl-16 flex pt-5 gap-10"><a href=""><img src="facebook.svg" class="w-8 bg-white" alt=""></a> 
+                <a href=""><img class="bg-white w-8"  class="bg-white"src="instagram.svg" alt=""></a>
+              <a href=""><img class="bg-white w-8" src="twitter.svg" alt=""></a>
+             <a href=""> <img class="bg-white w-8" src="google.svg" alt=""></a>  
+            </div>
+            </form>
+          </div>
+          <!--inner ends here -->
+         </div>
+         <!--second col ends here -->
+       </div>
+       <!--bodytext ends here  -->
+
+  </section>
+  <!--section ends here-->
+    <script src="index.js"></script>
+</body>
+</html>
