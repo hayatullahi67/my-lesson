@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="" >
+    <section class="bodysection">
+     <header class="">
+       <nav class="navheader hidden md:flex">
+        <!--logo start here -->
+           <div class="logo">
+                  <a href="#">Logo</a>
+           </div>
+           <!--logo ends here -->
+           <!--nav-menu start here -->
+        <div class="nav-menu pt-8 ">
+            <ul class="nav-list">
+                <li class="listlink"><a href="#">Home </a></li>
+                <li class="listlink"><a href="#"> about </a></li>
+                <li class="listlink"><a href="#"> services</a></li>
+                <li class="portfolio"><a href="#">portfolio</a></li>
+            </ul>
+        </div>
+        <!--nav-menu ends here -->
+        
+       </nav>
+       <!--responsive nav start here -->
+        <nav class="md:hidden h-96  flex justify-between">
+           
+            <!--logo start here -->
+           <div class="logo  ml-11" id="logo">
+            <a href="#" > Logo</a>
+     </div>
+     <!--logo ends here -->
+     <!--hamburger start here -->
+     <div class="md:hidden ">
+        <svg id="burger" class="w-11 mr-11 pt-8" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+          </svg>
+     </div>
+     <!--hamburger ends  here -->
+     <!--nav-menu start here -->
+  <div id="nav" class=" grid hidden gap-10 pt-8 align-end bg-black h-full w-full">
+    <div id="cancel" class="flex justify-end pr-11">
+        <svg  class="w-11  " data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12"></path>
+          </svg>
+    </div>
+      <ul class="grid gap pt-1  justify-center">
+          <li class=""><a href="#"  class="text-2xl">Home </a></li>
+          <li class=""><a href="#" class="text-2xl"> about </a></li>
+          <li class=""><a href="#" class="text-2xl"> services</a></li>
+          <li class=""><a href="#" class="text-2xl">portfolio</a></li>
+      </ul>
+  </div>
+  <!--nav-menu ends here -->
+        </nav>
+        <!--reponsive nav ends here -->
+     </header>
+
+      <!--bodytext start here -->
+     <div class="bodytext mt-40">
+         <!--text inner start here -->
+         <div class="textinner max-sm:w-full max-md:w-3/4">
+         <h1 class="dev">Development service </h1>
+
+         <div class="text">
+            We are dedicated to providing exceptional service and customer satisfaction 
+            join our community of passionate travelers and embark on unforgettable journeys.
+
+
+         </div>
+         <div class="Join max-sm:items-center max-md:ml-36 md:ml-36 "><a href="#"> Join Now</a></div>
+        </div>
+         <!--text inner start here -->
+     </div>
+     <!--bodytext ends here -->
+
+    </section>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
